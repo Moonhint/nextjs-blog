@@ -1,0 +1,23 @@
+.postContainer {
+    padding: 24px;
+    background-color: gray;
+
+    :global {
+        .brok {
+            color: #fff;
+        }
+
+        a {
+            color: blue;
+        }
+    }
+
+    h1 {
+        color: blue;
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+}

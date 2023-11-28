@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import styles from '../styles/Home.module.css';
-import { getSortedPostsData } from '../lib/posts';
-import utilStyles from '../styles/utils.module.css';
+import styles from '@/styles/Home.module.css';
+import { getSortedPostsData } from '@/lib/posts';
+import utilStyles from '@/styles/utils.module.css';
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();

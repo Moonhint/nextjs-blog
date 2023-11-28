@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Script from 'next/script';
 import Image from 'next/image';
-import Layout from '../../components/layout';
+import Layout from '@/components/layout';
 
 import styles from './first-post.module.scss';
 
